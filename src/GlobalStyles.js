@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = styled.div`
+export const GlobalStyles = createGlobalStyle`
   *,
   *::before,
   *::after {
@@ -18,6 +18,7 @@ export const GlobalStyles = styled.div`
   html,
   body {
     height: 100%;
+    background-color: #ECECEC;
   }
   /*
   Typographic tweaks!
