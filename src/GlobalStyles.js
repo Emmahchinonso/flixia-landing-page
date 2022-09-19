@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     height: 100%;
     background-color: #ECECEC;
+    color: #13203C;
   }
   /*
   Typographic tweaks!
